@@ -1,0 +1,65 @@
+﻿  pch.cpp
+  tlsserver.cpp
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(10): error C2079: “addr”使用未定义的 struct“create_socket::sockaddr_in”
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(12): error C2065: “AF_INET”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(13): error C3861: “htons”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(14): error C2065: “INADDR_ANY”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(14): error C3861: “htonl”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(16): error C2065: “AF_INET”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(16): error C2065: “SOCK_STREAM”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(16): error C3861: “socket”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(18): error C3861: “perror”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(19): error C2065: “EXIT_FAILURE”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(19): error C3861: “exit”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(22): error C3861: “bind”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(23): error C3861: “perror”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(24): error C2065: “EXIT_FAILURE”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(24): error C3861: “exit”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(27): error C3861: “listen”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(28): error C3861: “perror”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(29): error C2065: “EXIT_FAILURE”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(29): error C3861: “exit”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(37): error C3861: “SSL_load_error_strings”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(38): error C3861: “OpenSSL_add_ssl_algorithms”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(43): error C3861: “EVP_cleanup”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(46): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(46): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(47): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(47): error C2059: 语法错误:“{”
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(47): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(47): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(63): error C2065: “ctx”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(63): error C2182: “configure_context”: 非法使用“void”类型
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(64): error C2448: “configure_context”: 函数样式初始值设定项类似函数定义
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(82): error C2065: “ctx”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(85): error C2065: “ctx”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(87): error C2065: “ctx”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(93): error C2079: “addr”使用未定义的 struct“main::sockaddr_in”
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(94): error C2065: “uint”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(94): error C2146: 语法错误: 缺少“;”(在标识符“len”的前面)
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(94): error C2065: “len”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(95): error C2065: “SSL”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(95): error C2065: “ssl”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(98): error C2065: “len”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(98): error C3861: “accept”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(100): error C3861: “perror”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(101): error C2065: “EXIT_FAILURE”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(101): error C3861: “exit”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(104): error C2065: “ssl”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(104): error C2065: “ctx”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(104): error C3861: “SSL_new”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(105): error C2065: “ssl”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(105): error C3861: “SSL_set_fd”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(107): error C2065: “ssl”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(107): error C3861: “SSL_accept”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(108): error C2065: “stderr”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(108): error C3861: “ERR_print_errors_fp”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(111): error C2065: “ssl”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(111): error C3861: “strlen”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(111): error C3861: “SSL_write”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(114): error C2065: “ssl”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(114): error C3861: “SSL_free”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(115): error C3861: “close”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(118): error C3861: “close”: 找不到标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(119): error C2065: “ctx”: 未声明的标识符
+e:\workspace\tlsserver\tlsserver\tlsserver.cpp(119): error C3861: “SSL_CTX_free”: 找不到标识符
